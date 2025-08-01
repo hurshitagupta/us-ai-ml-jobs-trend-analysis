@@ -40,12 +40,12 @@ A comprehensive analysis of real-world Artificial Intelligence and Machine Learn
 
 ## **Version Details**
 
-> ### **v1: Data Loading and Preview**  
+### **v1: Data Loading and Preview**  
 > - Loaded CSV data and verified basic structure  
 > - Inspected data types, column info, and initial nulls  
 > - Summarized column-wise purpose and relevance  
 
-> ### **v2: Data Cleaning and Formatting**  
+### **v2: Data Cleaning and Formatting**  
 > - Selected 7 most relevant columns for analysis  
 > - Cleaned `title` and `companyName` using title case  
 > - Split `location` into new `city` and `state` columns  
@@ -65,7 +65,7 @@ A comprehensive analysis of real-world Artificial Intelligence and Machine Learn
 >- Preprocessing brings clarity to trends  
 >- Temporal and geographic splitting is powerful for grouping  
 >- Consistent formatting improves downstream analysis
-> ### **v3: Exploratory Data Analysis (EDA)**  
+### **v3: Exploratory Data Analysis (EDA)**  
 > - Explored key categorical columns: `contractType`, `experienceLevel`, `companyName`, `city`, `month`, and `year`  
 > - Analyzed top hiring companies, contract types, and demand distribution across experience levels  
 > - Grouped columns to uncover patterns like experience level vs contract type  
@@ -83,6 +83,25 @@ A comprehensive analysis of real-world Artificial Intelligence and Machine Learn
 > ### 📚 **Learnings**
 > - Even without visuals, grouped EDA can reveal powerful hiring signals  
 > - Categoricals can offer strong patterns when combined thoughtfully (e.g., exp + contract type)
+### **v4: Visual Exploration & Job Trend Charts**
+> - Turned cleaned data into visual insights using Seaborn and Matplotlib  
+> - Created 9 charts to highlight job trends that matter to both job seekers and recruiters  
+> - Covered key topics: hiring companies, contract and experience trends, sector-wise demand, state-level hiring, and application volume  
+> - Added geographic combo chart (company × state) to show where hiring is actually happening  
+>
+> ### 🔍 **Observations**
+> - Hiring is concentrated among a few major companies  
+> - Full-time and contract roles dominate the listings  
+> - Certain states are significantly more active in job postings  
+>
+> ### ⚠️ **Challenges**
+> - `sector` column contains long, compound values — not ideal for cross-analysis yet  
+> - `applicationCount` values are mostly constant making averages unhelpful  
+> - `title` data still too noisy to use effectively
+>
+> ### 📚 **Learnings**
+> - Visuals make trends far more intuitive, especially for stakeholders  
+> - Even without complex modeling, basic plots reveal what’s in demand and where  
 
 ---
 
