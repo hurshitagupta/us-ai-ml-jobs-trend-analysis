@@ -65,6 +65,24 @@ A comprehensive analysis of real-world Artificial Intelligence and Machine Learn
 >- Preprocessing brings clarity to trends  
 >- Temporal and geographic splitting is powerful for grouping  
 >- Consistent formatting improves downstream analysis
+> ### **v3: Exploratory Data Analysis (EDA)**  
+> - Explored key categorical columns: `contractType`, `experienceLevel`, `companyName`, `city`, `month`, and `year`  
+> - Analyzed top hiring companies, contract types, and demand distribution across experience levels  
+> - Grouped columns to uncover patterns like experience level vs contract type  
+> - Investigated which job types receive fewer applications despite frequent postings  
+>
+> ### 🔍 **Observations**
+> - Full-time jobs dominate hiring volume  
+> - Mid and senior experience levels are in highest demand  
+> - Some contract types attract very few applications despite high posting counts  
+>
+> ### ⚠️ **Challenges**
+> - Many companies share the lowest application count, making it hard to isolate one  
+> - Several city values were generic (e.g., "United States") and needed manual fixing  
+>
+> ### 📚 **Learnings**
+> - Even without visuals, grouped EDA can reveal powerful hiring signals  
+> - Categoricals can offer strong patterns when combined thoughtfully (e.g., exp + contract type)
 
 ---
 
