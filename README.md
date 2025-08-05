@@ -31,7 +31,7 @@ A comprehensive analysis of real-world Artificial Intelligence and Machine Learn
 | **v2**      | Data cleaning and formatting                                         |
 | **v3**      | Exploratory data analysis (EDA)                                      |
 | **v4**      | Visual analysis (plots, charts)                                      |
-| **v5**      | Insights and interpretations                                         |
+| **v5**      | Title and sector exploration                                         |
 | **v6**      | Trend analysis (time/location/sector-based)                         |
 | **v7**      | Optional modeling (salary inference, role clustering)                |
 | **v8**      | Final summary, key takeaways, and presentation-ready output          |
@@ -101,7 +101,28 @@ A comprehensive analysis of real-world Artificial Intelligence and Machine Learn
 >
 > ### 📚 **Learnings**
 > - Visuals make trends far more intuitive, especially for stakeholders  
-> - Even without complex modeling, basic plots reveal what’s in demand and where  
+> - Even without complex modeling, basic plots reveal what’s in demand and where 
+
+### **v5: Role & Sector Cleanup + Focused Visualizations**
+> - Cleaned and standardized two key fields: title and sector  
+> - Created new column: cleanedSector (14 sector categories) and updated the title column with broad job roles category
+> - Plotted 3 targeted visuals: top job titles, sector-wise hiring, and a focused heatmap of sector vs title  
+> - Enabled clearer role-based and industry-based trend insights for upcoming analysis  
+>
+> ### 🔍 **Observations**
+> - Machine Learning Engineer, Data Scientist and AI/ML Engineer are the most in-demand roles  
+> - Tech and Consulting sectors dominate hiring
+> - Different sectors focus on different roles majority lies in tech and that too for AI/ML
+>
+> ### ⚠️ **Challenges**
+> - Raw titles were highly inconsistent, combining roles, levels, and tech buzzwords in messy ways  
+> - Sector names were duplicated across variations, requiring manual grouping  
+> - Visuals became cluttered when plotting too many categories — filtering was essential  
+>
+> ### 📚 **Learnings**
+> - Cleaning categorical text fields unlocks powerful insights that raw data simply can’t show  
+> - Focused visualizations (like top 5×5 heatmaps) work better than overloading with all data  
+> - Investing time in data prep upfront saves time and confusion in trend analysis later  
 
 ---
 
